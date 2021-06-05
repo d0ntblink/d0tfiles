@@ -25,3 +25,5 @@ wofi
 Dracula Theme
 Dracula Icons
 xwayland
+element
+thunderbird
