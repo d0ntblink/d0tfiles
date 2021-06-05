@@ -52,8 +52,8 @@
             "warning": 30,
             "critical": 15
         },
-        "format-charging": "󰂄{capacity}%", // Icon: bolt
-        "format": "{icon}{capacity}%",
+        "format-charging": "<span foreground='#50fa7b'>󰂄{capacity}%</span>", // Icon: bolt
+        "format": "<span foreground='#ff5555'>{icon}{capacity}%</span>",
         "format-icons": [
             "󰂃",
 	        "󰁺", // Icon: battery-empty
@@ -77,7 +77,7 @@
 
     "cpu": {
         "interval": 5,
-        "format": "󰘚{usage}%", // Icon: microchip
+        "format": "<span foreground='#ff79c6'>󰘚{usage}%</span>", // Icon: microchip
         "states": {
             "warning": 70,
             "critical": 90
@@ -87,7 +87,7 @@
 
     "memory": {
         "interval": 5,
-        "format": "󰍛{}%", // Icon: memory
+        "format": "<span foreground='#ff79c6'>󰍛{}%</span>", // Icon: memory
         "states": {
             "warning": 70,
             "critical": 90
@@ -97,11 +97,11 @@
 
     "network": {
         "interval": 5,
-        "format-wifi": "󰖩 {essid} ({signalStrength}%)", // Icon: wifi
+        "format-wifi": "<span foreground='#50fa7b'>󰖩 {essid} ({signalStrength}%)</span>", // Icon: wifi
         "format-ethernet": "󰈀 {ifname}", // Icon: ethernet
-        "format-disconnected": "󱘖",
+        "format-disconnected": "<span foreground='#ff5555'>󱘖</span>",
         "tooltip-format": "{ifname}: {ipaddr}",
-	"on-click-right": "wl-copy $(ip address show up scope global | grep inet | head -n1 | cut -d/ -f 1 | tr -d [:space:] | cut -c5-)",
+	    "on-click-right": "wl-copy $(ip address show up scope global | grep inet | head -n1 | cut -d/ -f 1 | tr -d [:space:] | cut -c5-)",
         "on-click": "swaymsg exec \\$term_float nmtui"
     },
 
@@ -111,8 +111,8 @@
     },
 
     "sway/window": {
-        "format": "{}",
-        "max-length": 120
+        "format": "<span foreground='#ffb86c'>{}</span>",
+        "max-length": 100
     },
 
     "sway/workspaces": {
@@ -135,14 +135,14 @@
     },
 
     "backlight": {
-        "format": "{icon} {percent}%",
+        "format": "<span foreground='#f1fa8c'>{icon} {percent}%</span>",
         "format-icons": ["󰃞", "󰃟", "󰃠"],
         "on-scroll-down": "light -A 1",
         "on-scroll-up": "light -U 1"
     },
 
     "idle_inhibitor": {
-        "format": "{icon}",
+        "format": "<span foreground='#f1fa8c'>{icon}</span>",
         "format-icons": {
             "activated": "󰒳",
             "deactivated": "󰒲"
@@ -151,9 +151,9 @@
 
     "pulseaudio": {
         //"scroll-step": 1,
-        "format": "{icon}{volume}%  󰍬{format_source}",
-        "format-bluetooth": "{icon}󰂰 {volume}%  󰍬{format_source}",
-        "format-muted": "󰖁",
+        "format": "<span foreground='#6272a4'>{icon}{volume}%  󰍬{format_source}</span>",
+        "format-bluetooth": "<span foreground='#8be9fd'>{icon}󰂰 {volume}%  󰍬{format_source}</span>",
+        "format-muted": "<span foreground='#ff5555'>󰖁</span>",
         "format-icons": {
             "headphones": "󰋋",
             "handsfree": "󱋿",
@@ -169,7 +169,7 @@
     "temperature": {
       "critical-threshold": 90,
       "interval": 5,
-      "format": "{icon}{temperatureC}°C",
+      "format": "<span foreground='#ffb86c'>{icon}{temperatureC}°C</span>",
       "format-icons": [
           "󱃃",
           "󰔏", // Icon: temperature ok
@@ -180,7 +180,7 @@
     },
 
     "tray": {
-        "icon-size": 21,
+        "icon-size": 15,
         "spacing": 5
     },
 
@@ -193,20 +193,20 @@
     },
 
     "custom/menu": {
-        "format": "",
+        "format": " ",
         "on-click": "swaymsg exec \\$menu",
 	"on-click-right": "wlogout",
         "tooltip": false
     },
 
     "custom/help": {
-        "format": "󰑪",
+        "format": "<span foreground='#50fa7b'>ﲉ</span>",
         "on-click": "swaymsg exec \\$help",
         "tooltip": false
     },
 
     "bluetooth": {
-        "format": "{icon}",
+        "format": "<span foreground='#8be9fd'>{icon}</span>",
         "interval": 30,
         "format-icons": {
             "enabled": "󰂯",
