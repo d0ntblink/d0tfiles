@@ -27,3 +27,5 @@ Dracula Icons
 xwayland
 element
 thunderbird
+webtorrent
+onedriver

@@ -10,7 +10,7 @@ set $up k
 set $right l
 
 # background
-set $background /usr/share/backgrounds/manjaro-sway/gruvbox-dark-manjarosway-3840x2160.png
+set $background $HOME/.config/sway/wallpapers/wallpaper.png
 
 # styles - matcha-green or matcha-blue
 set $theme $HOME/.config/sway/themes/purple-owl
