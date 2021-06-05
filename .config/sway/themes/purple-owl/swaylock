@@ -1,0 +1,14 @@
+color=#282a36
+inside-color=#44475a
+inside-clear-color=#6272a4
+ring-color=#bd93f9
+ring-ver-color=#ffb86c
+ring-clear-color=#ff79c6
+ignore-empty-password
+show-failed-attempts
+screenshots
+clock
+effect-blur=8x8
+effect-vignette=0.5:0.5
+grace=2
+fade-in=0.2
