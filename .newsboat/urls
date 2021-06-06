@@ -4,8 +4,8 @@ https://yts.mx/rss "torrent" "movies"
 ------------------------------------------------
 Vim_Diesel(Luke_Smith)
 https://lukesmith.xyz/rss.xml "luke"
-https://lukesmith.xyz/videos "luke"
-https://notrelated.xyz/rss "luke"
+https://lukesmith.xyz/videos "luke" "~Luke's Based Videos"
+https://notrelated.xyz/rss "luke" "~Luke's Based Blog" 
 https://based.cooking/rss.xml "luke"
 ------------------------------------------------
 LTT
