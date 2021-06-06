@@ -1,14 +1,23 @@
-https://yts.mx/rss
-https://blog.d0ntbl.ink/feed.xml
-https://lukesmith.xyz/rss.xml
-https://lukesmith.xyz/videos
-https://notrelated.xyz/rss
-https://based.cooking/rss.xml
-https://www.youtube.com/feeds/videos.xml?channel_id=UCdBK94H6oZT2Q7l0-b0xmMg
-https://www.youtube.com/feeds/videos.xml?channel_id=UCeeFfhMcJa1kjtfZAGskOCA
-https://www.youtube.com/feeds/videos.xml?channel_id=UC0KfjyvabuE2J-RBC6ko2Lw
-https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw
-https://www.youtube.com/feeds/videos.xml?channel_id=UC0vBXGSyV14uvJ4hECDOl0Q
-https://www.youtube.com/feeds/videos.xml?channel_id=UCBZiUUYeLfS5rIj4TQvgSvA
-https://www.youtube.com/feeds/videos.xml?channel_id=UCReoPltky7B9H-uo1ijJ8Gg
-https://www.youtube.com/feeds/videos.xml?channel_id=UCERpgysn81hv0c0FXIjXsTg
+#Video Torrent
+https://yts.mx/rss "torrent" "movies"
+
+#Vim Diesel(Luke Smith)
+https://lukesmith.xyz/rss.xml "luke"
+https://lukesmith.xyz/videos "luke"
+https://notrelated.xyz/rss "luke"
+https://based.cooking/rss.xml "luke"
+
+#LTT
+https://www.youtube.com/feeds/videos.xml?channel_id=UCdBK94H6oZT2Q7l0-b0xmMg "ltt"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCeeFfhMcJa1kjtfZAGskOCA "ltt"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC0KfjyvabuE2J-RBC6ko2Lw "ltt"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw "ltt"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC0vBXGSyV14uvJ4hECDOl0Q "ltt"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCBZiUUYeLfS5rIj4TQvgSvA "ltt"
+
+#League
+https://www.youtube.com/feeds/videos.xml?channel_id=UCReoPltky7B9H-uo1ijJ8Gg "league"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCERpgysn81hv0c0FXIjXsTg "league"
+
+#My Stuff
+https://blog.d0ntbl.ink/feed.xml "d0ntblink"

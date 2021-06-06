@@ -1,0 +1,2 @@
+#!/bin/bash
+/home/d0ntblink/.config/sway/scripts/terminal.sh --exec="$2"
