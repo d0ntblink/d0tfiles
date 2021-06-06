@@ -223,7 +223,7 @@
             "one": "󰀿",
             "many": "󰪴"
         },
-        "exec": "/bin/sh /usr/share/sway/scripts/scratchpad.sh",
+        "exec": "/bin/sh $HOME/.config/sway/scripts/scratchpad.sh",
         "on-click": "swaymsg 'scratchpad show'"
     }
 }

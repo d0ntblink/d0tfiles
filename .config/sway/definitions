@@ -16,7 +16,7 @@ set $background $HOME/.config/sway/wallpapers/wallpaper.png
 set $theme $HOME/.config/sway/themes/purple-owl
 
 # Your preferred terminal emulator
-set $term /usr/share/sway/scripts/terminal.sh
+set $term $HOME/.config/sway/scripts/terminal.sh
 set $term_float $term float
 set $term_float_portrait $term float_portrait
 
@@ -52,7 +52,7 @@ set $pulseaudio $term_float pulsemixer
 set $help $term_float "man $HOME/.config/sway/help.man"
 
 # onscreen bar
-set $onscreen_bar bash /usr/share/sway/scripts/wob.sh
+set $onscreen_bar bash $HOME/.config/sway/scripts/wob.sh
 
 # calendar application
 set $calendar $term_float "khal interactive"
