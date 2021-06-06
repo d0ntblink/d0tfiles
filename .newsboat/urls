@@ -1,24 +1,31 @@
-------------------------------------------------
-Movie_Torrent
-https://yts.mx/rss "torrent" "movies"
-------------------------------------------------
-Vim_Diesel(Luke_Smith)
+---------------------Vim_Diesel(Luke_Smith)---------------------
 https://lukesmith.xyz/rss.xml "luke"
 https://lukesmith.xyz/videos "luke" "~Luke's Based Videos"
 https://notrelated.xyz/rss "luke" "~Luke's Based Blog" 
 https://based.cooking/rss.xml "luke"
-------------------------------------------------
-LTT
-https://www.youtube.com/feeds/videos.xml?channel_id=UCdBK94H6oZT2Q7l0-b0xmMg "ltt"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCeeFfhMcJa1kjtfZAGskOCA "ltt"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC0KfjyvabuE2J-RBC6ko2Lw "ltt"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw "ltt"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC0vBXGSyV14uvJ4hECDOl0Q "ltt"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCBZiUUYeLfS5rIj4TQvgSvA "ltt"
-------------------------------------------------
-League_of_Legends
-https://www.youtube.com/feeds/videos.xml?channel_id=UCReoPltky7B9H-uo1ijJ8Gg "league"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCERpgysn81hv0c0FXIjXsTg "league"
-------------------------------------------------
-My_Stuff
+-------------------------------LTT-------------------------------
+https://www.youtube.com/feeds/videos.xml?channel_id=UCdBK94H6oZT2Q7l0-b0xmMg "ltt" "tech"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCeeFfhMcJa1kjtfZAGskOCA "ltt" "tech"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC0KfjyvabuE2J-RBC6ko2Lw "ltt" "tech"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw "ltt" "tech"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC0vBXGSyV14uvJ4hECDOl0Q "ltt" "tech"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCBZiUUYeLfS5rIj4TQvgSvA "ltt" "tech" "fun"
+----------------------League_of_Legends_Vids----------------------
+https://www.youtube.com/feeds/videos.xml?channel_id=UCReoPltky7B9H-uo1ijJ8Gg "league" "fun"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCERpgysn81hv0c0FXIjXsTg "league "fun"
+----------------------------Other_Vids----------------------------
+https://www.youtube.com/feeds/videos.xml?channel_id=UCq6VFHwMzcMXbuKyG7SQYIg 
+https://www.youtube.com/feeds/videos.xml?channel_id=UCevSuFsr_D6O1hoRnUZUGYg "crypto"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC11PvrGPzo6Y7Zc6-e9cAKg "fun"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCs6KfncB4OV6Vug4o_bzijg "tech"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCL6JmiMXKoXS6bpP1D3bk8g "fun" "car"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCPcFg7aBbaVzXoIKSNqwaww "fun"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC-lHJZR3Gqxm24_Vd_AJ5Yw "fun"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCjZ8VI7quTVJRAkbOKRQnRA "car"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC91V6D3nkhP89wUb9f_h17g "fun"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfbnTUxUech4P1XgYUwYuKA "fun"
+https://www.youtube.com/feeds/videos.xml?channel_id=<PLACEHOLDER> "~PLACEHOLDER"
+---------------------------Movie_Torrent---------------------------
+https://yts.mx/rss "torrent" "movies" "~YTS.am"
+-----------------------------My_Stuff-----------------------------
 https://blog.d0ntbl.ink/feed.xml "d0ntblink"
