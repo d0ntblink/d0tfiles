@@ -4,6 +4,12 @@ inside-clear-color=#6272a4
 ring-color=#bd93f9
 ring-ver-color=#ffb86c
 ring-clear-color=#ff79c6
+text-wrong-color=#ff5555
+text-ver-color=#50fa7b
+indicator-radius=100
+indicator-thickness=20
+show-keyboard-layout
+indicator-caps-lock
 ignore-empty-password
 show-failed-attempts
 screenshots

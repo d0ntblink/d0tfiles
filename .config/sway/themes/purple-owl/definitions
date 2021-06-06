@@ -1,33 +1,33 @@
 # based on Base16 Seti UI
-# Author: Appelgriebsch
+# Author: d0ntblink
 
 # some global theme specific variables
 set $gtk-theme Dracula
 set $icon-theme Dracula
 set $cursor-theme xcursor-breeze
-set $gui-font FiraCode NF 10
-set $term-font FiraMono NF 12
+set $gui-font FiraCode Nerd Font 11
+set $term-font FiraMono NF 11
 set $kvantum-theme Matchama-Dark-Azul
 
 # a theme specific color map
-set $base00 #14161b
-set $base01 #282a2b
-set $base02 #3B758C
-set $base03 #41535B
-set $base04 #43a5d5
+set $base00 #282a36
+set $base01 #44475a
+set $base02 #bd93f9
+set $base03 #6272a4
+set $base04 #8be9fd
 set $base05 #d6d6d6
-set $base06 #eeeeee
-set $base07 #ffffff
-set $base08 #Cd3f45
-set $base09 #db7b55
-set $base0A #e6cd69
-set $base0B #9fca56
-set $base0C #16a085
-set $base0D #55b5db
-set $base0E #a074c4
-set $base0F #8a553f
+set $base06 #ffffff
+set $base07 #f8f8f2
+set $base08 #ff5555
+set $base09 #ffb86c
+set $base0A #f1fa8c
+set $base0B #50fa7b
+set $base0C #69ff94
+set $base0D #a4ffff
+set $base0E #bd93f9
+set $base0F #ff79c6
 
-set $transparent-background-color rgba(20, 22, 27, 0.9)
+set $transparent-background-color #bd93f9
 
 # Basic color configuration using the Base16 variables for windows and borders.
 # Property Name         Border  BG      Text    Indicator Child Border
