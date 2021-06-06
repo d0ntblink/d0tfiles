@@ -34,3 +34,4 @@ termius
 base-devel --needed
 virtualbox
 etcher
+spicetify
