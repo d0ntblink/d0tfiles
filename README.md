@@ -1,4 +1,9 @@
 # Program List
+youtube-viewer
+lynx
+qtbrowser
+newsboat
+urlviewer
 7z
 colorls
 dash
