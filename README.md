@@ -29,3 +29,8 @@ element
 thunderbird
 webtorrent
 onedriver
+docker
+termius
+base-devel --needed
+virtualbox
+etcher
