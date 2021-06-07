@@ -1,7 +1,7 @@
 #show-read-feeds no
 auto-reload yes
 
-external-url-viewer "urlview"
+external-url-viewer "urlscan --headers -dc -r 'linkhandler {}'"
 
 bind-key j down
 bind-key k up

@@ -3,10 +3,12 @@ youtube-viewer
 lynx
 qtbrowser
 newsboat
-urlviewer
 7z
+urlscan
 colorls
+sxiv
 dash
+mpv
 discord
 dolphin
 fish
