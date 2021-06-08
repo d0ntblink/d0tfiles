@@ -27,6 +27,7 @@
         "sway/window"
     ],
     "modules-right": [
+        "custom/newsboat",
         "network",
         "bluetooth",
         "cpu",
@@ -38,7 +39,6 @@
         "pulseaudio",
         "custom/pacman",
         "tray",
-        "custom/help",
         "clock",
     ],
 
@@ -141,16 +141,16 @@
     },
 
     "idle_inhibitor": {
-        "format": "<span foreground='#f1fa8c'>{icon}</span>",
+        "format": "{icon}",
         "format-icons": {
-            "activated": "󰒳",
-            "deactivated": "󰒲"
+            "activated": "<span foreground='#ff5555'>󰒳</span>",
+            "deactivated": "<span foreground='#f1fa8c'>󰒲</span>"
         }
     },
 
     "pulseaudio": {
         //"scroll-step": 1,
-        "format": "<span foreground='#6272a4'>{icon}{volume}%  󰍬{format_source}</span>",
+        "format": "<span foreground='#8be9fd'>{icon}{volume}%  󰍬{format_source}</span>",
         "format-bluetooth": "<span foreground='#8be9fd'>{icon}󰂰 {volume}%  󰍬{format_source}</span>",
         "format-muted": "<span foreground='#ff5555'>󰖁</span>",
         "format-icons": {
@@ -191,16 +191,16 @@
         "on-click": "pamac-manager --updates",
     },
 
-    "custom/menu": {
-        "format": " ",
-        "on-click": "swaymsg exec \\$menu",
-	"on-click-right": "wlogout",
+    "custom/newsboat": {
+        "format": "<span foreground='#ffb86c'>  </span>",
+        "on-click": "swaymsg exec \\$term_float newsboat -r",
         "tooltip": false
     },
 
-    "custom/help": {
-        "format": "<span foreground='#50fa7b'>ﲉ</span>",
-        "on-click": "swaymsg exec \\$help",
+    "custom/menu": {
+        "format": " ",
+        "on-click": "swaymsg exec \\$menu",
+	    "on-click-right": "wlogout",
         "tooltip": false
     },
 
