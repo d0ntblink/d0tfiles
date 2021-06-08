@@ -12,5 +12,8 @@ include $theme/definitions
 # disable second screeen
 output HDMI-A-1 disable
 
+# enable the cool new screen
+output HDMI-A-2 enable
+
 # Default wallpaper
-output * bg $background fill
+output * bg $background center
