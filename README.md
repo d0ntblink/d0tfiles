@@ -1,4 +1,6 @@
 # Program List
+openvpn3
+networkmanager
 youtube-viewer
 lynx
 qtbrowser
